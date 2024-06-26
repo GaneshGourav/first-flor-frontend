@@ -1,6 +1,6 @@
 import React from "react";
 import { CiLocationOn } from "react-icons/ci";
-import { CiSearch } from "react-icons/ci";
+import { FaSearch } from "react-icons/fa";
 
 export const Home = () => {
   return (
@@ -12,21 +12,21 @@ export const Home = () => {
           className="w-[100%] object-cover h-full"
         />
         <div className="w-full  flex justify-center items-center absolute md:top-[350px] bottom-[-60px]  ">
-          <div className="md:w-[35%] w-full  bg-white py-5 px-3 border   ">
+          <div className="md:w-[35%] w-full  bg-white py-5 px-3 rounded-[10px]  ">
             <p className="text-blue-600 font-[600] ">Buy</p>
-            <div className="flex justify-start items-center gap-5 w-[100%] mt-2">
-              <div className="flex justify-start gap-2 items-center border border-gray-400 md:w-[50%] w-[100%]">
+            <div className="flex justify-start items-center gap-5 w-[100%] mt-5">
+              <div className="flex justify-start gap-2 items-center border border-gray-400 md:w-[50%] w-[100%] rounded-[10px] px-3 py-1">
                 <div>
-                  <CiLocationOn className="text-green-500 text-[30px]" />
+                  <CiLocationOn className="text-green-500 text-[30px] font-[bold]" />
                 </div>
                 <input
                   type="text"
                   placeholder="search loaction"
-                  className="px-2 outline-none"
+                  className="px-2 outline-none "
                 />
               </div>
               <div className="py-3 bg-blue-600 px-3 rounded-[5px]">
-                <CiSearch className="text-white font-bold" />
+                <FaSearch className="text-white font-bold" />
               </div>
             </div>
           </div>

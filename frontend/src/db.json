@@ -1,0 +1,105 @@
+{
+    "cards": [
+      {
+        "id": 1,
+        "image": "https://media.istockphoto.com/id/122269375/photo/elementary-school-in-pennsylvania.jpg?s=612x612&w=0&k=20&c=Ajdag8XkAyO32kbD2NUiFZs3K5HCN2wSCSuWMQOg1xY=",
+        "price": "4800",
+        "address": "HSR Layout, Bengaluru, Karnataka - 560102",
+        "description": "3 BHK Apartment for Sale in JP Nagar, Bengaluru",
+        "bed": "2",
+        "bath": "5",
+        "date": "10 May 2023"
+      },
+      {
+        "id": 2,
+        "image": "https://media.istockphoto.com/id/94732796/photo/a-deserted-modern-school-building-during-day-time.jpg?s=612x612&w=0&k=20&c=yn93k-rzf6T8NuZUPOLieXWxsJC7w4xrXhu_bwNcPMg=",
+        "price": "4800",
+        "address": "benguluru",
+        "description": "2 BHK Apartment for Rent in HSR Layout, Bengaluru",
+        "bed": "2",
+        "bath": "5",
+        "date": "10 May 2023"
+      },
+      {
+        "id": 3,
+        "image": "https://media.istockphoto.com/id/183829120/photo/primary-school-building-in-kent-united-kingdom.jpg?s=612x612&w=0&k=20&c=s8eonbh-7_Jzb9wwYjxKdvnk3f4gCDf24wSJnPeJlNA=",
+        "price": "4800",
+        "address": "WMJH+59C, Bellandur, Bengaluru, Karnataka 560103, India",
+        "description": "2 BHK Apartment for Sale in Bellandur, Bengaluru",
+        "bed": "2",
+        "bath": "5",
+        "date": "10 May 2023"
+      },
+      {
+        "id": 4,
+        "image": "https://media.istockphoto.com/id/156919428/photo/brandywine-heights-high-school-in-topton-pennsylvania.jpg?s=612x612&w=0&k=20&c=sQnVkYlvQQjBB_GIPrnqahzaiL6j1_JlzuCnFwPe4Y8=",
+        "price": "4800",
+        "address": "DSR Rainbow Heights, 24th Main Rd, ITI Layout, Sector 7",
+        "description": "3 BHK Apartment for Sale in 24th Main Road, Bengaluru",
+        "bed": "2",
+        "bath": "5",
+        "date": "10 May 2023"
+      },
+      {
+        "id": 5,
+        "image": "https://media.istockphoto.com/id/115867277/photo/academy.jpg?s=612x612&w=0&k=20&c=L4Z_B4gcGgQG6TrY6BQVsQ-fjJJ441Ef8zlEZWqmbSM=",
+        "price": "4800",
+        "address": "43, Vinayaka Layout, Bhuvaneshwari Nagar",
+        "description": "3 BHK Apartment for Sale in Nagdevanahalli, Bengaluru Urban",
+        "bed": "2",
+        "bath": "5",
+        "date": "10 May 2023"
+      },
+      {
+        "id": 6,
+        "image": "https://media.istockphoto.com/id/170617725/photo/high-school-with-blue-sky-and-modern-architecture.jpg?s=612x612&w=0&k=20&c=phprHCtrvwExFYmHUDtGJpx_jdEvL1yAkHkNzTYNH3w=",
+        "price": "4800",
+        "address": "78/9, near Friends Bakery, Sector 6",
+        "description": "4 BHK Apartment for Rent in Muneshwara Nagar, Bengaluru Urban",
+        "bed": "2",
+        "bath": "5",
+        "date": "10 May 2023"
+      },
+      {
+        "id": 7,
+        "image": "https://media.istockphoto.com/id/173761967/photo/high-school-building-entrance-copyspace-and-sky.jpg?s=612x612&w=0&k=20&c=i4JYhTWNUY02mUBLDgSj9ZDvMD-Hv_dJVe89ypMm8lo=",
+        "price": "4800",
+        "address": "26, 1st Cross, Rajaram Mohan Roy Extension",
+        "description": "3 BHK Apartment for Sale in Sudhama Nagar, Bengaluru Urban",
+        "bed": "2",
+        "bath": "5",
+        "date": "10 May 2023"
+      },
+      {
+        "id": 8,
+        "image": "https://media.istockphoto.com/id/96936221/photo/school-building-with-flag.jpg?s=612x612&w=0&k=20&c=KLAcx78wj3hf1c4ZwgpfB-vdS0eM9ply5yAstmcDqUE=",
+        "price": "4800",
+        "address": "OLETY LANDMARK, 9/1, VHBCS Layout",
+        "description": "3 BHK Apartment for Rent in Basaveshwar Nagar",
+        "bed": "2",
+        "bath": "5",
+        "date": "10 May 2023"
+      },
+      {
+        "id": 9,
+        "image": "https://media.istockphoto.com/id/1317007945/photo/exterior-view-of-a-typical-american-school-building.jpg?s=612x612&w=0&k=20&c=FffTSUEMo9VODNLVR6AL7KEEgdMIucu5wgixzTMiBgk=",
+        "price": "4800",
+        "address": "8, 31, Aga Abbas Ali Rd, Halasuru, Yellappa Chetty Layout",
+        "description": "3 BHK Apartment for Rent in Sivanchetti Gardens",
+        "bed": "2",
+        "bath": "5",
+        "date": "10 May 2023"
+      },
+      {
+        "id": 10,
+        "image": "https://media.istockphoto.com/id/184885402/photo/school-building-and-playground.jpg?s=612x612&w=0&k=20&c=su-cHsionBkoxsPRd4WLqGZGnwOsVXLWCMt1nHV3Rv8=",
+        "price": "4800",
+        "address": "Richards Town, Bengaluru, Karnataka - 560005",
+        "description": "3 BHK Apartment for Sale in Richards Town, Bengaluru",
+        "bed": "2",
+        "bath": "5",
+        "date": "10 May 2023"
+      }
+    ]
+  }
+  
