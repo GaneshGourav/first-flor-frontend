@@ -138,12 +138,13 @@ export const Slider = () => {
   const [filter, setFilter] = useState("All");
   const handleFilterChange = (newFilter) => {
     setFilter(newFilter);
+    setStartIndex(0);
   };
 
   const filteredData =
     filter === "All"
       ? cards
-      : cards.filter((el) => parseInt(el.description) === parseInt(filter));
+      : cards.filter((el) => el.description.includes(filter));
 
   useEffect(() => {
     const handleResize = () => {
@@ -194,18 +195,20 @@ export const Slider = () => {
             All
           </p>
           <p
-            className={`bg-[#edf4f9] px-3 rounded-[5px] cursor-pointer ${
-              filter === "2" ? "bg-[#50bf97]" : "bg-[#edf4f9] "
-            } ${filter === "2" ? "text-white" : "text-black"} `}
-            onClick={() => handleFilterChange("2")}
+            className={` px-3 rounded-[5px] cursor-pointer ${
+              filter === "2 BHK" ? "bg-[#50bf97]" : "bg-[#edf4f9] "
+            } ${filter === "2 BHK" ? "text-white" : "text-black"} `}
+            onClick={() => handleFilterChange("2 BHK")}
           >
             2 BHK
           </p>
           <p
-            className={`bg-[#edf4f9]  px-3 rounded-[5px] ${
-              filter === "3" ? "bg-[#50bf97]" : "bg-[#edf4f9] "
-            } ${filter === "3" ? "text-white" : "text-black"} cursor-pointer`}
-            onClick={() => handleFilterChange("3")}
+            className={` px-3 rounded-[5px] ${
+              filter === "3 BHK" ? "bg-[#50bf97]" : "bg-[#edf4f9] "
+            } ${
+              filter === "3 BHK" ? "text-white" : "text-black"
+            } cursor-pointer`}
+            onClick={() => handleFilterChange("3 BHK")}
           >
             3 BHK
           </p>
@@ -215,6 +218,7 @@ export const Slider = () => {
         <button
           onClick={handlePrevClick}
           className="bg-white w-10 h-12 p-2 rounded-[10px] border absolute z-10 bottom-[260px]"
+          disabled={startIndex === 0}
         >
           <FcPrevious />
         </button>
@@ -295,6 +299,7 @@ export const Slider = () => {
         <button
           onClick={handleNextClick}
           className="bg-white w-10 h-12 p-2 rounded-[10px] text-blue-600 font-[bold] absolute right-2 bottom-[260px] "
+          disabled={startIndex >= filteredData.length - cardsPerView}
         >
           <FcNext />
         </button>
